@@ -76,8 +76,9 @@ class Board extends React.Component {
         render() {
         return (
         <div className="game">
-        <div className="game-board">
-        <Board />
+            <div className="game-board">
+                <p className="name">Tic Tac Toe</p>
+                <Board />
         </div>
         <div className="game-info">
         <div>{/* status */}</div>
